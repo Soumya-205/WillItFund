@@ -27,11 +27,11 @@ The target is moderately imbalanced — 59.6% failed, 40.4% successful — which
 
 - **Goal size is a strong, near-monotonic predictor of success** — success rate drops steadily from 53.8% (goals under $1K) to 13.1% (goals over $50K).
 
-![Success rate by goal bucket](plots/success_by_goal_bucket.png)
+![Success rate by goal bucket](plots/success_rate.png)
 
 - **Category matters substantially** — performance-based categories (Dance: 65.6%, Theater: 64.2%) far outperform technical/investigative categories (Technology: 23.8%, Journalism: 24.2%), likely reflecting a mix of typical goal size differences and backer trust dynamics per category.
 
-![Success rate by category](plots/success_by_category.png)
+![Success rate by category](plots/feature_importance.png)
 
 - **Goal amounts cluster heavily at round numbers** ($5K, $10K, $15K, etc.) — a real behavioral pattern showing creators anchor to round figures rather than calculating precise costs.
 
